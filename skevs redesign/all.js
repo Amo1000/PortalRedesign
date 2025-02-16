@@ -1,0 +1,2 @@
+document.getElementById('profile-options').insertAdjacentHTML("beforeend",'<a class="icon-folder" href="/groups#my-favourite-groups">Favourite groups</a></li>')
+document.getElementById('profile-options').insertAdjacentHTML("beforeend",'<a class="icon-link" href="/cms/myLinks">My links</a></li>')

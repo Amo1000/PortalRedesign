@@ -1,0 +1,26 @@
+:root {
+    --main-text: #0066b0;
+}
+
+h1{
+    color: var(--main-text);
+    font-size: 25px;
+}
+
+h3{
+    color: var(--main-text);
+}
+
+::selection{
+    color: #fcfcfc;
+    background: var(--main-text);
+}
+
+a{
+    color: var(--main-text);
+    font-weight: bold;
+}
+
+body{
+    background: #fcfcfc;
+}

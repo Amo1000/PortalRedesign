@@ -1,0 +1,8 @@
+ul.activity-list.group{
+    border-width: 0px !important;
+    margin: 10px !important;
+}
+
+li.actions-small-1:hover{
+    background: rgb(214,235,253);
+}

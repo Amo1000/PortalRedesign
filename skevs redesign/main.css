@@ -1,0 +1,23 @@
+.swiper-horizontal{
+    border-radius: 16px;
+}
+
+section.content{
+    display: none;
+}
+
+#tileList-397.tileList .tile{
+    height: 65px !important;
+}
+
+#small-12 columns{
+    height: 39.195px;
+}
+
+.fc-list-sticky td, .fc-list-sticky th, .fc-list-sticky .fc-event, .information-list li{
+    transition: all .23s ease-in-out !important;
+}
+
+.information-list li:hover{
+    background: rgb(214,235,253);
+}

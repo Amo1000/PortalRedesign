@@ -1,0 +1,38 @@
+{
+  "manifest_version" : 3,
+  "version" : "1",
+  "name": "St Kevins portal Redesign",
+  "icons": {
+    "128": "img/icon.png"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://skcportal.stkevins.vic.edu.au/login"],
+      "css": ["login.css"]
+    },
+    {
+      "matches": ["https://skcportal.stkevins.vic.edu.au/login/"],
+      "css": ["login.css"]
+    },
+    {
+      "matches": ["https://skcportal.stkevins.vic.edu.au/login*"],
+      "css": ["login.css"]
+    },
+    {
+      "matches": ["https://skcportal.stkevins.vic.edu.au/*"],
+      "css": ["all.css"],
+      "js": ["all.js"]
+    },
+    {
+      "matches": ["https://skcportal.stkevins.vic.edu.au/"],
+      "css": ["main.css"]
+    },
+    {
+      "matches": ["https://skcportal.stkevins.vic.edu.au/learning/grades/*"],
+      "css": ["grades.css"]
+    }
+  ]
+}
