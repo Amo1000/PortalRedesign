@@ -1,2 +1,3 @@
 document.getElementById('profile-options').insertAdjacentHTML("beforeend",'<a class="icon-folder" href="/groups#my-favourite-groups">Favourite groups</a></li>')
 document.getElementById('profile-options').insertAdjacentHTML("beforeend",'<a class="icon-link" href="/cms/myLinks">My links</a></li>')
+document.getElementById('footer').insertAdjacentHTML("afterbegin",'<a onclick="document.documentElement.scrollTop = 0;" id="myBtn" title="Go to top">Back to top</a>')
