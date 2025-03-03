@@ -1,0 +1,12 @@
+.v-card .card-class-image, .small-12, .island{
+    border-top-left-radius: 16px !important;
+    border-top-right-radius: 16px !important;
+}
+
+.v-card, .small-12{
+    border-radius: 16px !important;
+}
+
+.small-12, .island{
+    background: #fcfcfc !important;
+}
