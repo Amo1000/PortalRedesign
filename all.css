@@ -36,6 +36,7 @@ tbody a {
     background: rgba(255, 255, 255, 0.5) !important;
     backdrop-filter: blur(6px);
     border-radius: 16px;
+    border-top-right-radius: 0px !important;
     scrollbar-width: none !important;
 }
 
@@ -74,4 +75,25 @@ thead th:nth-child(8){
 #side-menu h3{
     color: #0066b0;
     text-align: center;
+}
+
+.c-search-input__button:hover::before{
+    transform: scale(1.25) rotate(90deg);
+}
+
+.right-off-canvas-toggle:hover::before{
+    animation: tilt-shaking 0.5s ease-in-out;
+}
+
+@keyframes tilt-shaking {
+    0% { transform: rotate(0deg); }
+    10% { transform: rotate(15deg); }
+    20% { transform: rotate(0deg); }
+    30% { transform: rotate(-15deg); }
+    40% { transform: rotate(0deg); }
+    50% { transform: rotate(0deg); }
+    60% { transform: rotate(15deg); }
+    70% { transform: rotate(0deg); }
+    80% { transform: rotate(-15deg); }
+    90% { transform: rotate(0deg); }
 }
