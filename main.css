@@ -19,5 +19,17 @@ section.content{
 }
 
 .information-list li:hover{
-    background: rgb(214,235,253);
+    background: #d6ebfd;
+}
+
+.tileList, .component-container{
+    background: #fcfcfc !important;
+}
+
+.tile{
+    transition: all 0.15s ease-in-out !important;
+}
+
+.tile:hover{
+    background: #eeeeee !important;
 }

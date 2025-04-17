@@ -53,7 +53,7 @@ body:not(.login) {
 }
 
 ul.tileList li.tile.background-center, .tile-link{
-    border-radius: 16px;
+    border-radius: 12px;
 }
 
 .left-menu-dock{
@@ -77,8 +77,12 @@ thead th:nth-child(8){
     text-align: center;
 }
 
+.c-search-input__button::before{
+    transition: tramsform 0.2s ease-in-out;
+}
+
 .c-search-input__button:hover::before{
-    transform: scale(1.25) rotate(90deg);
+    transform: scale(1.15) rotate(90deg);
 }
 
 .right-off-canvas-toggle:hover::before{
@@ -88,12 +92,38 @@ thead th:nth-child(8){
 @keyframes tilt-shaking {
     0% { transform: rotate(0deg); }
     10% { transform: rotate(15deg); }
-    20% { transform: rotate(0deg); }
-    30% { transform: rotate(-15deg); }
-    40% { transform: rotate(0deg); }
-    50% { transform: rotate(0deg); }
-    60% { transform: rotate(15deg); }
-    70% { transform: rotate(0deg); }
-    80% { transform: rotate(-15deg); }
-    90% { transform: rotate(0deg); }
+    30% { transform: rotate(-12deg); }
+    60% { transform: rotate(7.5deg); }
+    80% { transform: rotate(-5.5deg); }
+    100% { transform: rotate(0deg); }
+}
+
+#left-off-canvas-toggle rect{
+    transition: all 0.25s ease-out;
+}
+
+#left-off-canvas-toggle:hover rect:nth-child(1) {
+    transform: translate(-40px, 0px);
+}
+
+#left-off-canvas-toggle:hover rect:nth-child(2) {
+    transform: translate(-30px, 0px);
+}
+
+.icon-settings:hover::before{
+    transition: all 0.2s ease-in-out;
+    transform: rotate(90deg);
+}
+
+a.icon-favourite-hollow{
+    border-radius: 8px;
+}
+
+.socialstream-new-post{
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.socialstream-new-post input{
+    border-radius: 8px;
 }

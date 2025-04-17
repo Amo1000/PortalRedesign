@@ -23,4 +23,11 @@ a{
 
 body{
     background: #fcfcfc;
+    text-align: center;
+}
+
+center img{
+    border-radius: 16px;
+    box-shadow: 0px 0px 5px #00000055;
+    margin-bottom: 50px;
 }
