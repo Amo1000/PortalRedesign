@@ -10,3 +10,23 @@
 .small-12, .island, .island section{
     background: #fcfcfc !important;
 }
+
+.context-switch a{
+    background-color: #00000000 !important;
+}
+
+.context-switch a{
+    transition: all 0.2s ease-out !important;
+}
+
+.context-switch a:hover{
+    transform: scale(1.1);
+}
+
+.context-switch a:active{
+    transform: scale(0.9);
+}
+
+select#context-selector-semester{
+    border-radius: 8px;
+}

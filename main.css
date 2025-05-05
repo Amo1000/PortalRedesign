@@ -10,10 +10,6 @@ section.content{
     height: 65px !important;
 }
 
-#small-12 columns{
-    height: 39.195px;
-}
-
 .fc-list-sticky td, .fc-list-sticky th, .fc-list-sticky .fc-event, .information-list li{
     transition: all .23s ease-in-out !important;
 }
@@ -32,4 +28,23 @@ section.content{
 
 .tile:hover{
     background: #eeeeee !important;
+}
+
+.swiper-button-next::before, .swiper-button-prev::before{
+    transition: all 0.2s ease-out;
+}
+
+.swiper-button-next:hover::before, .swiper-button-prev:hover::before{
+    transform: scale(1.1);
+}
+
+.swiper-button-next:active::before, .swiper-button-prev:active::before{
+    transform: scale(0.9);
+}
+
+li.actions-small-1{
+    border-radius: 8px;
+}
+.weather-list img{
+    filter: saturate(1.35) contrast(1.15) grayscale(10%);
 }
