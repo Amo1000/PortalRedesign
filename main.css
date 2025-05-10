@@ -48,3 +48,8 @@ li.actions-small-1{
 .weather-list img{
     filter: saturate(1.35) contrast(1.15) grayscale(10%);
 }
+
+.icon-favourite-hollow{
+    border-radius: 0px !important;
+    border-top-right-radius: 8px !important;
+}

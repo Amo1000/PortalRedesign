@@ -114,12 +114,28 @@ thead th:nth-child(8){
     transform: translate(-30px, 0px);
 }
 
+#left-off-canvas-toggle:hover rect:nth-child(3) {
+    transform: translate(-20px, 0px);
+}
+
+#left-off-canvas-toggle:active rect:nth-child(1) {
+    transform: translate(-60px, 0px);
+}
+
+#left-off-canvas-toggle:active rect:nth-child(2) {
+    transform: translate(-45px, 0px);
+}
+
+#left-off-canvas-toggle:active rect:nth-child(3) {
+    transform: translate(-30px, 0px);
+}
+
 .icon-settings:hover::before{
     transition: all 0.2s ease-in-out;
     transform: rotate(90deg);
 }
 
-a.icon-favourite-hollow, .socialstream-new-post input, .submit.button, #news-component img{
+a.icon-favourite-hollow, .socialstream-new-post input, .submit.button, #news-component img, .icon-close{
     border-radius: 8px;
 }
 
