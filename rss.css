@@ -1,0 +1,10 @@
+body{
+    margin: 0px;
+    background: #131313 !important;
+}
+
+body pre{
+    color: #ffffff !important;
+    background: #131313 !important;
+    margin: 0px !important;
+}

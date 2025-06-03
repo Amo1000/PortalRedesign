@@ -37,6 +37,10 @@
     {
       "matches": ["https://skcportal.stkevins.vic.edu.au/learning/classes*"],
       "css": ["classes.css"]
+    },
+    {
+      "matches": ["https://skcportal.stkevins.vic.edu.au/news/feed/*"],
+      "css": ["rss.css"]
     }
   ]
 }

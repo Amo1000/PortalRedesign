@@ -26,7 +26,7 @@ tbody a {
 	font-weight: bold;
 }
 
-.move-left .right-off-canvas-menu, .right-off-canvas-menu, .move-right .left-off-canvas-menu, .left-off-canvas-menu, .c-search-input input[type=text].c-search-input__field{
+.move-left .right-off-canvas-menu, .right-off-canvas-menu, .move-right .left-off-canvas-menu, .left-off-canvas-menu, .c-search-input input[type=text].c-search-input__field, ul.left-submenu{
     background: rgba(255, 255, 255, 0.6) !important;
     backdrop-filter: blur(6px) !important;
     scrollbar-width: none !important;
@@ -160,4 +160,59 @@ a.icon-favourite-hollow, .socialstream-new-post input, .submit.button, #news-com
 
 .breadcrumb li a, .breadcrumb li span{
     padding: 2px !important;
+}
+
+.reveal-modal, .reveal-modal .component-action section, .reveal-modal a{
+    border-radius: 16px !important;
+}
+
+.close-reveal-modal{
+    transition: all 0.2s ease-in-out;
+}
+
+.close-reveal-modal:hover{
+    transform: scale(1.1);
+}
+
+.close-reveal-modal:active{
+    transform: scale(0.9);
+}
+
+.row .small-12 section{
+    border-radius: 8px !important;
+}
+
+ul.left-submenu{
+    transition: transform 400ms ease 0s;
+}
+
+ul.left-submenu li.back a{
+    padding: 16px !important;
+    height: auto !important;
+    line-height: 16px !important;
+    background-color: var(--content-ui-background) !important;
+}
+
+#search-field{
+    border-color: var(--navigation-hover);
+    transition: all 0.2s ease-in-out;
+}
+
+#search-field:focus{
+    border-bottom-width: 0px;
+}
+
+#search-field::placeholder{
+    color: var(--colour-main-page-text) !important;
+    opacity: 50%;
+    transition: opacity 0.1s ease-in-out;
+}
+
+#search-field:focus::placeholder{
+    color: var(--colour-main-page-text) !important;
+    opacity: 0%;
+}
+
+.loader{
+    animation: sb-loader 1.6s infinite cubic-bezier(0.68, -0.55, 0.27, 1.55) !important;
 }
