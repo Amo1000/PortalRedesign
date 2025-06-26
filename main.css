@@ -31,7 +31,7 @@ section.content{
 }
 
 .swiper-button-next::before, .swiper-button-prev::before{
-    transition: all 0.2s ease-out;
+    transition: all 0.11s ease-out;
 }
 
 .swiper-button-next:hover::before, .swiper-button-prev:hover::before{

@@ -216,3 +216,11 @@ ul.left-submenu li.back a{
 .loader{
     animation: sb-loader 1.6s infinite cubic-bezier(0.68, -0.55, 0.27, 1.55) !important;
 }
+
+.empty-state{
+    border-radius: 8px;
+}
+
+.v-card-list.classes-groups.content div{
+    border-radius: 16px !important;
+}
