@@ -14,7 +14,7 @@ section.content{
     transition: all .23s ease-in-out !important;
 }
 
-.information-list li:hover{
+.information-list li:hover, li.subject:hover{
     background: #d6ebfd;
 }
 
@@ -30,7 +30,7 @@ section.content{
     background: #eeeeee !important;
 }
 
-.swiper-button-next::before, .swiper-button-prev::before{
+.swiper-button-next::before, .swiper-button-prev::before, li.subject{
     transition: all 0.11s ease-out;
 }
 
