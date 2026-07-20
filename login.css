@@ -1,5 +1,6 @@
 img{
-	content: url("https://skcportal.stkevins.vic.edu.au/images/logo.php?logo=skin_logo_large&size=hidpi")
+	content: url("https://skcportal.stkevins.vic.edu.au/images/logo.php?logo=skin_logo_large&size=hidpi");
+  filter: brightness(1.2);
 }
 
 body.login.side #content{

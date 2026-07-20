@@ -11,15 +11,18 @@
   "content_scripts": [
     {
       "matches": ["https://skcportal.stkevins.vic.edu.au/login"],
-      "css": ["login.css"]
+      "css": ["login.css"],
+      "js": ["login.js"]
     },
     {
       "matches": ["https://skcportal.stkevins.vic.edu.au/login/"],
-      "css": ["login.css"]
+      "css": ["login.css"],
+      "js": ["login.js"]
     },
     {
       "matches": ["https://skcportal.stkevins.vic.edu.au/login*"],
-      "css": ["login.css"]
+      "css": ["login.css"],
+      "js": ["login.js"]
     },
     {
       "matches": ["https://skcportal.stkevins.vic.edu.au/*"],
