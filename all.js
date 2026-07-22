@@ -16,4 +16,4 @@ for (var i = 0; i < active.length; i++ ) {
     active1[i].insertAdjacentHTML("afterbegin",'<a href="https://skcportal.stkevins.vic.edu.au/"><strong> ~ </strong></a>')
 }
 
-document.querySelector("link[rel*='icon']").href = 'img/defaultlogo.png'
+document.querySelector("link[rel*='icon']").href = 'https://github.com/Amo1000/PortalRedesign/blob/main/img/defaultlogo.png?raw=true'
