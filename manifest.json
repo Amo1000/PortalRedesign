@@ -31,19 +31,23 @@
     },
     {
       "matches": ["https://skcportal.stkevins.vic.edu.au/"],
-      "css": ["main.css"]
+      "css": ["main.css"],
+      "js": ["all.js"]
     },
     {
       "matches": ["https://skcportal.stkevins.vic.edu.au/learning/grades/*"],
-      "css": ["grades.css"]
+      "css": ["grades.css"],
+      "js": ["all.js"]
     },
     {
       "matches": ["https://skcportal.stkevins.vic.edu.au/learning/classes*"],
-      "css": ["classes.css"]
+      "css": ["classes.css"],
+      "js": ["all.js"]
     },
     {
       "matches": ["https://skcportal.stkevins.vic.edu.au/news/feed/*"],
-      "css": ["rss.css"]
+      "css": ["rss.css"],
+      "js": ["all.js"]
     }
   ]
 }

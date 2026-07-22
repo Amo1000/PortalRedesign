@@ -16,9 +16,4 @@ for (var i = 0; i < active.length; i++ ) {
     active1[i].insertAdjacentHTML("afterbegin",'<a href="https://skcportal.stkevins.vic.edu.au/"><strong> ~ </strong></a>')
 }
 
-function changeFavicon(newHref) {
-    const favicon = document.getElementById('apple-touch-icon') || document.querySelector('link[rel="icon"]');
-    favicon.href = newHref;
-}
-
-changeFavicon('https://skcportal.stkevins.vic.edu.au/images/logo.php?logo=skin_logo_square&size=hidpi');
+document.querySelector("link[rel*='icon']").href = 'img/defaultlogo.png'

@@ -26,7 +26,7 @@ tbody a {
 	font-weight: bold;
 }
 
-.move-left .right-off-canvas-menu, .right-off-canvas-menu, .move-right .left-off-canvas-menu, .left-off-canvas-menu, .c-search-input input[type=text].c-search-input__field, ul.left-submenu{
+.move-left .right-off-canvas-menu, .right-off-canvas-menu, .move-right .left-off-canvas-menu, .left-off-canvas-menu, .c-search-input input[type=text].c-search-input__field, ul.left-submenu, .sbx-search-input input[type=text].sbx-search-input__field{
     background: rgba(255, 255, 255, 0.6) !important;
     backdrop-filter: blur(6px) !important;
     scrollbar-width: none !important;
@@ -225,6 +225,6 @@ ul.left-submenu li.back a{
     border-radius: 16px !important;
 }
 
-.logo-wrapper{
-    filter: brightness(1.2);
+.logo-wrapper, .tab-bar-section .logo img{
+    filter: brightness(1.2) !important;
 }
