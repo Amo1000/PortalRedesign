@@ -26,15 +26,16 @@ tbody a {
 	font-weight: bold;
 }
 
-.move-left .right-off-canvas-menu, .right-off-canvas-menu, .move-right .left-off-canvas-menu, .left-off-canvas-menu, .c-search-input input[type=text].c-search-input__field, ul.left-submenu, .sbx-search-input input[type=text].sbx-search-input__field{
+.move-left .right-off-canvas-menu, .right-off-canvas-menu, .move-right .left-off-canvas-menu, .left-off-canvas-menu, .c-search-input input[type=text].c-search-input__field, ul.left-submenu, .sbx-search-input input[type=text].sbx-search-input__field, #tab-control{
     background: rgba(255, 255, 255, 0.6) !important;
-    backdrop-filter: blur(6px) !important;
+    backdrop-filter: blur(6px) grayscale(40%) brightness(1.2)!important;
     scrollbar-width: none !important;
 }
 
 .hybrid-bar .account-drop{
+    transition: all 0.2s ease-in-out;
     background: rgba(255, 255, 255, 0.5) !important;
-    backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px) grayscale(10%)!important;
     border-radius: 16px;
     border-top-right-radius: 0px !important;
     scrollbar-width: none !important;
@@ -70,6 +71,7 @@ thead th:nth-child(8){
 
 .component-titlebar {
     border-radius: 8px;
+    margin-bottom: 4px !important;
 }
 
 #side-menu h3{
@@ -204,8 +206,13 @@ ul.left-submenu li.back a{
 
 #search-field::placeholder{
     color: var(--colour-main-page-text) !important;
-    opacity: 50%;
+    opacity: 65%;
     transition: opacity 0.1s ease-in-out;
+}
+
+.sbx-header-search__search-button{
+    background: var(--colour-main-page-text) !important;
+    color: #fff !important;
 }
 
 #search-field:focus::placeholder{
@@ -231,4 +238,80 @@ ul.left-submenu li.back a{
 
 #top-menu{
     padding-left: 0px !important;
+}
+
+.sbx-related-event-muted{
+    opacity: 0.45 !important;
+}
+
+#left-menu-dock{
+    z-index: 999 !important;
+    border-bottom-left-radius: 6px;
+}
+
+#right-menu-dock{
+    color: #fff !important;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+#right-menu-dock:hover{
+    background: #ffffff5b !important;
+}
+
+
+#left-menu-dock sbx-icon, #right-menu-dock sbx-icon{
+    transition: all 0.2s ease-in-out;
+}
+
+#left-menu-dock:hover [name="pin-hollow"], #right-menu-dock:hover [name="pin-hollow"]{
+    rotate: -45deg;
+}
+
+#left-menu-dock:active [name="pin-hollow"], #right-menu-dock:active [name="pin-hollow"]{
+    translate: 0px 2px;
+    scale: 1.05;
+}
+
+#left-menu-dock [name="pin"], #right-menu-dock [name="pin"]{
+    translate: 0px 2px;
+    rotate: -45deg;
+    scale: 1.05;
+}
+
+.c-search-input input[type=text].c-search-input__field, ul.left-submenu, .sbx-search-input input[type=text].sbx-search-input__field{
+    backdrop-filter: grayscale(40%) blur(6px)!important;
+}
+
+.settings-button:hover{
+    background: #ffffff5b !important;
+}
+
+.settings-button{
+    border-top-left-radius: 6px !important;
+    border-bottom-left-radius: 6px !important;
+}
+
+.settings-button [name="settings"]{
+    fill: #fff !important;
+    color: #fff !important;
+    transition: none 0s ease-in-out;
+}
+
+.settings-button:hover [name="settings"] {
+    rotate: 60deg;
+    transition: all 0.2s ease-in-out;
+}
+
+#tab-control a{
+    background: #ffffff00 !important;
+    transition: all 0.2s ease-in-out !important;
+}
+
+#tab-control li.separator{
+    font-weight: bold;
+}
+
+#tab-control{
+    border-radius: 8px;
 }
