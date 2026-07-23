@@ -81,11 +81,11 @@ thead th:nth-child(8){
     transition: tramsform 0.2s ease-in-out;
 }
 
-.c-search-input__button:hover::before{
+.c-search-input__button:hover::before, #header-search-input:hover sbx-icon{
     transform: scale(1.15) rotate(90deg);
 }
 
-.right-off-canvas-toggle:hover::before{
+.right-off-canvas-toggle:hover::before, #notification-toggle:hover sbx-icon{
     animation: tilt-shaking 0.5s ease-in-out;
 }
 
@@ -227,4 +227,8 @@ ul.left-submenu li.back a{
 
 .logo-wrapper, .tab-bar-section .logo img{
     filter: brightness(1.2) !important;
+}
+
+#top-menu{
+    padding-left: 0px !important;
 }
