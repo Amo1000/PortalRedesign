@@ -22,12 +22,12 @@ section.content{
     background: #fcfcfc !important;
 }
 
-.tile{
+#component85836 li{
     transition: all 0.15s ease-in-out !important;
 }
 
-.tile:hover{
-    background: #eeeeee !important;
+#component85836 li:hover{
+    background: #efefef !important;
 }
 
 .swiper-button-next::before, .swiper-button-prev::before, li.subject{
@@ -52,4 +52,8 @@ li.actions-small-1{
 .icon-favourite-hollow{
     border-radius: 0px !important;
     border-top-right-radius: 8px !important;
+}
+
+#tileList-8643 li{
+    margin-block: 2px !important;
 }
