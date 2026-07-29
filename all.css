@@ -292,6 +292,22 @@ ul.left-submenu li.back a{
     border-bottom-left-radius: 6px !important;
 }
 
+#left-menu-dock [name="pin"]{
+    color: #d2d2d2 !important;
+}
+
+#right-menu-dock [name="pin"]{
+    color: #00000040 !important;
+}
+
+#left-menu-dock:hover [name="pin"]{
+    color: #2b65ab !important;
+}
+
+#right-menu-dock:hover [name="pin"]{
+    color: #fff !important;
+}
+
 .settings-button [name="settings"]{
     fill: #fff !important;
     color: #fff !important;
