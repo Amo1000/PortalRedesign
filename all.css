@@ -279,22 +279,6 @@ ul.left-submenu li.back a{
     scale: 1.05;
 }
 
-#left-menu-dock [name="pin"]{
-    color: #d2d2d2 !important;
-}
-
-#right-menu-dock [name="pin"]{
-    color: #00000040 !important;
-}
-
-#left-menu-dock:hover [name="pin"]{
-    color: #2b65ab !important;
-}
-
-#right-menu-dock:hover [name="pin"]{
-    color: #fff !important;
-}
-
 .c-search-input input[type=text].c-search-input__field, ul.left-submenu, .sbx-search-input input[type=text].sbx-search-input__field{
     backdrop-filter: grayscale(40%) blur(6px)!important;
 }
