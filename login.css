@@ -1,11 +1,13 @@
 img{
 	content: url("https://skcportal.stkevins.vic.edu.au/images/logo.php?logo=skin_logo_large&size=hidpi");
   filter: brightness(1.2);
+  scale: 1.2;
+  margin-bottom: 15px;
 }
 
 body.login.side #content{
-  backdrop-filter: blur(6px);
-  background: #ffffffb5 !important;
+  backdrop-filter: blur(8px);
+  background: #ffffffd5 !important;
 }
 
 #username, #password, .login-links > input, body.login input[type=submit]{

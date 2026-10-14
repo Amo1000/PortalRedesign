@@ -27,15 +27,15 @@ tbody a {
 }
 
 .move-left .right-off-canvas-menu, .right-off-canvas-menu, .move-right .left-off-canvas-menu, .left-off-canvas-menu, .c-search-input input[type=text].c-search-input__field, ul.left-submenu, .sbx-search-input input[type=text].sbx-search-input__field, #tab-control{
-    background: rgba(255, 255, 255, 0.6) !important;
-    backdrop-filter: blur(6px) grayscale(40%) brightness(1.2)!important;
+    background: rgba(255, 255, 255, 0.75) !important;
+    backdrop-filter: blur(8px) grayscale(20%) brightness(1.1)!important;
     scrollbar-width: none !important;
 }
 
 .hybrid-bar .account-drop{
     transition: all 0.2s ease-in-out;
     background: rgba(255, 255, 255, 0.5) !important;
-    backdrop-filter: blur(6px) grayscale(10%)!important;
+    backdrop-filter: blur(8px) grayscale(20%) brightness(1.1)!important;
     border-radius: 16px;
     border-top-right-radius: 0px !important;
     scrollbar-width: none !important;
@@ -79,8 +79,8 @@ thead th:nth-child(8){
     text-align: center;
 }
 
-.c-search-input__button::before{
-    transition: tramsform 0.2s ease-in-out;
+.c-search-input__button::before, #header-search-input sbx-icon{
+    transition: transform 0.2s ease-in-out !important;
 }
 
 .c-search-input__button:hover::before, #header-search-input:hover sbx-icon{
@@ -195,9 +195,9 @@ ul.left-submenu li.back a{
     background-color: var(--content-ui-background) !important;
 }
 
-#search-field{
+#search-field, .c-search-input__button [name="search"], .c-search-input__button .sbx-icon__svg{
     border-color: var(--navigation-hover);
-    transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out !important;
 }
 
 #search-field:focus{
@@ -293,11 +293,11 @@ ul.left-submenu li.back a{
 }
 
 #left-menu-dock [name="pin"]{
-    color: #d2d2d2 !important;
+    color: #00000010 !important;
 }
 
 #right-menu-dock [name="pin"]{
-    color: #00000040 !important;
+    color: #00000010 !important;
 }
 
 #left-menu-dock:hover [name="pin"]{
@@ -330,4 +330,12 @@ ul.left-submenu li.back a{
 
 #tab-control{
     border-radius: 8px;
+}
+
+#profile-options li sbx-icon, .off-canvas-list li a:hover::after, .left-submenu li.back a:hover::before{
+    transition: all 0.1s ease-in-out;
+}
+
+#top-menu li:hover sbx-icon, #profile-options li:hover sbx-icon, .off-canvas-list li a:hover::after, .left-submenu a:hover::before{
+    transform: scale(1.2);
 }

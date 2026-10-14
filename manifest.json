@@ -12,42 +12,42 @@
     {
       "matches": ["https://skcportal.stkevins.vic.edu.au/login"],
       "css": ["login.css"],
-      "js": ["login.js"]
+      "js": ["favicon.js"]
     },
     {
       "matches": ["https://skcportal.stkevins.vic.edu.au/login/"],
       "css": ["login.css"],
-      "js": ["login.js"]
+      "js": ["favicon.js"]
     },
     {
       "matches": ["https://skcportal.stkevins.vic.edu.au/login*"],
       "css": ["login.css"],
-      "js": ["login.js"]
+      "js": ["favicon.js"]
     },
     {
       "matches": ["https://skcportal.stkevins.vic.edu.au/*"],
       "css": ["all.css"],
-      "js": ["all.js"]
+      "js": ["all.js", "favicon.js"]
     },
     {
       "matches": ["https://skcportal.stkevins.vic.edu.au/"],
       "css": ["main.css"],
-      "js": ["all.js"]
+      "js": ["all.js", "favicon.js"]
     },
     {
       "matches": ["https://skcportal.stkevins.vic.edu.au/learning/grades/*"],
       "css": ["grades.css"],
-      "js": ["all.js"]
+      "js": ["all.js", "favicon.js"]
     },
     {
       "matches": ["https://skcportal.stkevins.vic.edu.au/learning/classes*"],
       "css": ["classes.css"],
-      "js": ["all.js"]
+      "js": ["all.js", "favicon.js"]
     },
     {
       "matches": ["https://skcportal.stkevins.vic.edu.au/news/feed/*"],
       "css": ["rss.css"],
-      "js": ["all.js"]
+      "js": ["all.js", "favicon.js"]
     }
   ]
 }

@@ -1,0 +1,1 @@
+document.querySelector("link[rel*='icon']").href = 'https://github.com/Amo1000/PortalRedesign/blob/main/img/defaultlogo.png?raw=true'
